@@ -1,0 +1,143 @@
+/* some of the inherited property in css are font(all category),
+color, background, text-allign */
+
+
+/*body{
+	background: yellowgreen;
+	color: black;
+	font-size:19px;
+	font-weight: lighter;
+	font-style: italic;
+	text-align: center;
+	margin-top: 55px;
+}*/
+/*.main{
+	margin-top: 50;
+	text-align: center; /*works only for display: inline objects*/
+/*}*/
+.logo-img{
+	display: block;
+	width: 300px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+.searchbox{
+	display: block;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 24px  ;
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.btn{
+	/*display: block;
+	margin-right: auto;
+	margin-left: auto;*/
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	background: #def1e5;
+	border: none;
+	border-radius: 5px;
+	font-weight: 100px;
+	font-size: 14px;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+
+
+.red{
+	background: red;
+	height:100px;
+}
+
+.blue{
+	background: blue;
+	height: 100px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.green{
+	background: green;
+	height: 100px;
+}
+/*.main{
+	margin-bottom: 30px;
+}*/
+/*.card{
+
+	color: #22222;
+	background: lightgray;
+	width=300px;
+	margin-top: 50px;
+	margin-left:50px;
+	margin-right: 50px;
+	padding: 50px;
+	border: 4px solid #222222;
+	border-radius: 20px;
+}
+*/.follow{
+	background: white;
+	display: block;
+	width: 100px;
+	text-decoration-color: #0f1419;
+	font-weight: bold;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border:2px solid #cfd9de;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.btn-wrapper{
+	display: flex;
+	justify-content: center;
+}
+body{
+	margin: 20px;
+	font-family:verdana, geneva, tahoma, sans-serif;
+
+}
+.card{
+	width:400px;
+	background: #ddebf8;
+	display: flex;
+	color:#2b2839;
+	border-bottom: 5px solid #d8cefe;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin:0 auto;
+/*	border: 1px dotted blue;*/
+	padding:20px;
+	justify-content:space-around;
+	text-align: center;
+}
+
+.image{
+	width: 150px;
+/*	border:1px dotted blue;*/
+}
+
+.border-blue{
+	border: 1px dotted blue;
+
+}
+
+
+
+
+
